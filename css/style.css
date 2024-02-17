@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Vogue';
+    src: url('../fonts/Vogue.ttf') format('truetype');
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    height: 360px;
+    width: 280px;
+    overflow: hidden;
+    background: radial-gradient(#cfcece,#3f3f3f);
+}
+.layer{
+    position: absolute;
+    bottom: 0;
+}
+.layer img{
+    margin-left: -14px;
+    height: 300px;
+    margin-bottom: -2px;
+}
+.layer:nth-child(1){
+    font-size: 55px;
+    left: 30px;
+    position: absolute;
+    top: 12px;
+    color: #810000;
+
+}
+.layer:nth-child(3){
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #810000;
+    font-style: italic;
+}
+.grid{
+    display: flex;
+    margin-top: 150px;
+}
+.grid1{
+    color: gold;
+    display: flex;
+    width: 50%;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid2{
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    text-align: end;
+    margin-top: 5px;
+    font-size: 13px;
+}
